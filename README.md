@@ -3,7 +3,6 @@ Practice of CART decision tree and random forest.
 
 ## How to run
 
-Start the program
 ```
 python CARTDecisionTree.py TrainData TestData
 ```
@@ -26,7 +25,7 @@ Pruned version of the CART decision tree, using a simple pruning technique: simp
 
 ### RandomForest.py
 
-Aggregate 30000 fully grown CART decision trees, trained with bagging 0.8 of the training data.
+Aggregate 30000 fully grown CART decision trees, each trained with bagging 0.8 of the training data.
 
 ## Built With
 
